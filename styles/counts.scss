@@ -1,0 +1,36 @@
+.counts {
+  padding: 70px 0 60px;
+
+  .count-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    &-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &-icon {
+        font-size: 45px;
+        color: #0b198f;
+    }
+
+    span {
+      font-size: 36px;
+      display: block;
+      font-weight: 600;
+      color: #0b198f;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+      font-family: "Nunito", sans-serif;
+      font-size: 14px;
+    }
+  }
+}
