@@ -36,8 +36,8 @@ const Breadcrumbs = () => {
   }
 
   return (
-    <section class="breadcrumbs">
-      <div class="container">
+    <section className="breadcrumbs">
+      <div className="container">
         <ol>
           <li>
             <a href="/">HOME</a>

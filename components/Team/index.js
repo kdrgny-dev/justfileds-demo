@@ -25,7 +25,7 @@ export default function Team({data}) {
                                     {item?.social.length > 0 ? (
                                         <div className="social">
                                             {item?.social?.map((social_item, index) => (
-                                                <a href={social_item?.url}>
+                                                <a href={social_item?.url} key={index += 1}>
                                                     <i className={`bi ${social_item?.icon}`}></i>
                                                 </a>
                                             ))}
