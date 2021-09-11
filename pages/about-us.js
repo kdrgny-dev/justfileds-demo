@@ -6,7 +6,7 @@ export default function AboutUs({data}) {
         <section className="inner-page">
             <div className="container">
                 <h1>{data?.about?.title}</h1>
-                <img src={data?.about?.image} alt={data?.about?.title} classNameName="img-fluid" />
+                <img src={data?.about?.image} alt={data?.about?.title} className="img-fluid" />
                 <p dangerouslySetInnerHTML={{ __html: data?.about?.content }} />
             </div>
         </section>
