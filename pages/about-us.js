@@ -3,10 +3,10 @@ import Breadcrumbs from '../components/Breadcrumb'
 
 export default function AboutUs({data}) {
     return (
-        <section class="inner-page">
-            <div class="container">
+        <section className="inner-page">
+            <div className="container">
                 <h1>{data?.about?.title}</h1>
-                <img src={data?.about?.image} alt={data?.about?.title} className="img-fluid" />
+                <img src={data?.about?.image} alt={data?.about?.title} classNameName="img-fluid" />
                 <p dangerouslySetInnerHTML={{ __html: data?.about?.content }} />
             </div>
         </section>
